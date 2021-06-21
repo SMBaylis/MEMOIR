@@ -1,6 +1,6 @@
 Package: MEMOIR
 Title: Mortality Estimation for Multiple Organisms In R
-Version: 0.91.0.000
+Version: 0.94.0.000
 Authors@R: person("Shane", "Baylis", email = "shane.m.baylis@gmail.com", role = c("aut", "cre"))
 Description: Tools for the estimation of population-mortality structures from
     recaptures and recoveries of marked animals. Targeted at estimating mortality
@@ -11,4 +11,4 @@ Depends:
     R (>= 3.2.2)
 License: MIT + file LICENSE
 LazyData: true
-RoxygenNote: 4.1.1.9001
+RoxygenNote: 7.1.1

@@ -36,4 +36,3 @@ for simulated populations.
 \examples{
 with(effort, effort.fitfeeder(YEAR, SPECIES, LOC, BANDED, splitBy))
 }
-

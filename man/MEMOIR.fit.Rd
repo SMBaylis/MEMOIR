@@ -28,7 +28,7 @@ The function returns a dataframe of weights for each observation under various
         weighting criteria: Wa, Wi, Wb, Wal, Wil, Waib, and Waibl.
 }
 \description{
-Estimates weightings for observations based on a prior model of the unlikeliness of 
+Estimates weightings for observations based on a prior model of the probability of 
 making each observation. Weightings estimated are Wi (the odds of missing an
 animal because of low research intensity, relative to the animal observed under
 the most intense research), Wa (the odds of missing an animal at this animal's
@@ -50,4 +50,3 @@ This occurs when there is an age-class in which no individuals are recorded dead
 simName <- MEMOIR.sim()
 fitName <- MEMOIR.fit(records=simName[[1]], effort=simName[[2]], wearRates=simName[[3]], groups=unique(simName[[1]]$recRepNo), fitLocs=TRUE)
 }
-

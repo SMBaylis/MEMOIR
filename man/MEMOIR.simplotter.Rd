@@ -5,8 +5,13 @@
 \title{Generate plots and densely-sampled estimated survival curves from a fitted MEMOIR model
 with observations from multiple locations or populations}
 \usage{
-MEMOIR.simplotter(x, zombieMode = TRUE, deadOnly = FALSE,
-  PMType = "weibull", displayType = "kaplan")
+MEMOIR.simplotter(
+  x,
+  zombieMode = TRUE,
+  deadOnly = FALSE,
+  PMType = "weibull",
+  displayType = "kaplan"
+)
 }
 \arguments{
 \item{x}{A dataframe generated using MEMOIR.fit()[[1]]}
@@ -42,4 +47,3 @@ mortality curve for each iteration in simulated data, or a single estimated mort
 curve in real species data. For discussion of the different models implemented here, see
 Baylis et al (xxxx) and Baylis S. M. (2016) [PhD title goes here].
 }
-

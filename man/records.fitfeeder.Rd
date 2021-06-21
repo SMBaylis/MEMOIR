@@ -4,8 +4,14 @@
 \alias{records.fitfeeder}
 \title{Prepare National-Scale Records Data For MEMOIR.fit Input}
 \usage{
-records.fitfeeder(BAND, SCIENA, BANDED, RECOVERED, BANDLOC,
-  SplitBy = c("SCIENA"))
+records.fitfeeder(
+  BAND,
+  SCIENA,
+  BANDED,
+  RECOVERED,
+  BANDLOC,
+  SplitBy = c("SCIENA")
+)
 }
 \arguments{
 \item{BAND}{Numeric or text vector of length N. Unique codes identifying each individual.}
@@ -42,4 +48,3 @@ for simulated populations.
 with(records, records.fitfeeder(BAND=bandNo, SCIENA=sciName, BANDED=bandDate,
      RECOVERED=recoverDate, BANDLOC=locode)) 
 }
-

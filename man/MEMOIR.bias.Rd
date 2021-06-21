@@ -6,8 +6,7 @@
                MEMOIR.simplotter(), at a set of given sampling ages with a set of
                given true values.}
 \usage{
-MEMOIR.bias(estimates, ages = c(5, 10, 15), proportions = c(0.75, 0.5,
-  0.25))
+MEMOIR.bias(estimates, ages = c(5, 10, 15), proportions = c(0.75, 0.5, 0.25))
 }
 \arguments{
 \item{estimates}{A dataframe of fitted model predictions from MEMOIR.simplotter(). Must
@@ -28,4 +27,3 @@ Returns the observed bias of the estimate at the given sampling ages. Output is
 formatted as a dataframe, with ages as column one, proportional survival as column two,
 and estimated bias as column three.
 }
-

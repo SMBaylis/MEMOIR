@@ -4,9 +4,19 @@
 \alias{MEMOIR.sim}
 \title{Simulate National-Scale Mark-Recapture}
 \usage{
-MEMOIR.sim(locs = 5, mortCurve = c("A"), history = 64, batchProb = 0.4,
-  catchSize = 50, researchProp = 0.5, wearRate = 2.22, maxWear = 65,
-  censorProb = 0.4, liveRecapDeflator = 0.5, niter = 1000)
+MEMOIR.sim(
+  locs = 5,
+  mortCurve = c("A"),
+  history = 64,
+  batchProb = 0.4,
+  catchSize = 50,
+  researchProp = 0.5,
+  wearRate = 2.22,
+  maxWear = 65,
+  censorProb = 0.4,
+  liveRecapDeflator = 0.5,
+  niter = 1000
+)
 }
 \arguments{
 \item{locs}{Integer. Number of locations ('locodes', or equivalent) to simulate}
@@ -92,4 +102,3 @@ rate, and setting the amount of wear which causes mark-loss.
 MEMOIR.sim(locs=5, mortCurve=c("A"), history=64, batchProb=0.3, catchSize=50,
            researchProp=0.5, wearRate=0.22, maxWear=65, niter=1000)
 }
-

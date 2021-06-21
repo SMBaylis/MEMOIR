@@ -5,8 +5,15 @@
 \title{MEMOIR.boot(): Generate bootstrap estimates of annual adult survival, immature survival,
                first-year survival, and senescence for a single species.}
 \usage{
-MEMOIR.boot(records, effort, wearRate, breedingAge, zombieMode, deadOnly,
-  niter = 1000)
+MEMOIR.boot(
+  records,
+  effort,
+  wearRate,
+  breedingAge,
+  zombieMode,
+  deadOnly,
+  niter = 1000
+)
 }
 \arguments{
 \item{records}{A data-frame of records, as for MEMOIR.fit()}
@@ -22,4 +29,3 @@ Returns a list with values [[1]]: The estimated adult survival, immature surviva
 first-year survival and senescence for each iteration, and [[2]]: the SE of the
 iterated survival and senescence estimates.
 }
-

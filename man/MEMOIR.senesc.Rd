@@ -19,4 +19,3 @@ Currently outputs a dataframe with species name (as in the 'survrates' input),
 \description{
 MEMOIR.senesc: estimate species' senescence rates from a MEMOIR.survrates() fit.
 }
-

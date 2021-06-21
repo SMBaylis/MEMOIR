@@ -29,4 +29,3 @@ N-weighting is achieved by multiplying estimated survival through each age-class
 (weighted) number of observations from that age-class, and dividing the sum of those
 products by the sum of the (weighted) number of observations across all age-classes.
 }
-

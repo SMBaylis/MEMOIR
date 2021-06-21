@@ -25,4 +25,3 @@ outputs it for input to MEMOIR.fit.
 with(records, records.fitfeeder(BAND=bandNo, SCIENA=sciName, BANDED=bandDate,
      RECOVERED=recoverDate, BANDLOC=locode)) 
 }
-
